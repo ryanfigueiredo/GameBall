@@ -17,7 +17,7 @@ function main() {
     ctx = canvas.getContext("2d")
     document.body.appendChild(canvas)
     document.addEventListener("mousedown", clique)
-    document.addEventListener("ontouchstart", clique)
+    document.addEventListener("touchstart", clique)
 
     estadoAtual = estados.jogar
     record = localStorage.getItem("record")
